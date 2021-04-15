@@ -1,0 +1,18 @@
+.view-notes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.view-notes-header {
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+}
+.all-notes-header > * {
+  margin: 5px;
+}
+.all-notes-header > button {
+  background-color: rgba(202, 39, 39, 0.877);
+  border: 0px;
+}
